@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DespiertaTek — Despierta informado</title>
+  <meta name="description" content="6 noticias. 5 minutos. Tu newsletter diario de geopolítica, mercados, tech e innovación.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #f0f2f5;
+      font-family: 'Inter', system-ui, sans-serif;
+      color: #0f172a;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #080f1e 0%, #0d1b3e 50%, #112266 100%);
+      padding: 2rem 1.5rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -40%;
+      right: -10%;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(37, 99, 235, 0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-inner { max-width: 780px; margin: 0 auto; }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      text-decoration: none;
+    }
+
+    .logo-mark { width: 34px; height: 34px; flex-shrink: 0; }
+
+    .logo-text {
+      font-size: 1.4rem;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      color: #ffffff;
+    }
+
+    .logo-text span { color: #93c5fd; }
+
+    .header-right { text-align: right; }
+
+    .header-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      color: #93c5fd;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.15rem;
+    }
+
+    .header-edition {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.65rem;
+      color: rgba(147, 197, 253, 0.6);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .tagline {
+      font-size: 0.95rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .archive-nav {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem 0;
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .archive-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      padding: 0.35rem 0.7rem;
+      background: #ffffff;
+      border: 1px solid #dce1e8;
+      border-radius: 6px;
+      color: #5a6477;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-weight: 500;
+    }
+
+    .archive-btn:hover, .archive-btn.active {
+      border-color: #2563eb;
+      color: #2563eb;
+      background: #eff4ff;
+    }
+
+    .content {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 1.5rem 1.5rem 3rem;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #e2e6ec;
+      border-radius: 12px;
+      padding: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .card:hover {
+      border-color: #c7d2e0;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+    }
+
+    .card-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #2563eb;
+      background: #fafbff;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      margin-bottom: 0.85rem;
+      width: fit-content;
+    }
+
+    .card-label .emoji { font-size: 0.8rem; letter-spacing: 0; }
+
+    .card-headline {
+      font-size: 1rem;
+      font-weight: 800;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+      color: #0f172a;
+      margin-bottom: 0.6rem;
+    }
+
+    .card-body {
+      font-size: 0.84rem;
+      color: #475569;
+      line-height: 1.65;
+      flex: 1;
+    }
+
+    .card-body strong { color: #1e293b; font-weight: 600; }
+
+    .footer {
+      background: #080f1e;
+      padding: 1.25rem 1.5rem;
+    }
+
+    .footer-inner {
+      max-width: 780px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .footer-logo-mark { width: 22px; height: 22px; }
+
+    .footer-logo-text {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.03em;
+    }
+
+    .footer-logo-text span { color: #93c5fd; }
+
+    .footer-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.62rem;
+      color: rgba(148, 163, 184, 0.7);
+    }
+
+    .loading {
+      text-align: center;
+      padding: 4rem 0;
+      color: #5a6477;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.82rem;
+    }
+
+    .loading::after {
+      content: '';
+      display: block;
+      width: 22px;
+      height: 22px;
+      border: 2px solid #dce1e8;
+      border-top-color: #2563eb;
+      border-radius: 50%;
+      margin: 1rem auto 0;
+      animation: spin 0.7s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .error-state { text-align: center; padding: 4rem 0; color: #5a6477; }
+
+    @media (max-width: 640px) {
+      .cards-grid { grid-template-columns: 1fr; }
+      .card-headline { font-size: 0.95rem; }
+      .header-top { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+      .header-right { text-align: left; }
+      .footer-inner { flex-direction: column; gap: 0.5rem; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-inner">
+      <div class="header-top">
+        <a href="/" class="logo-group">
+          <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="10" width="20" height="20" rx="3" fill="#2563eb"/>
+            <rect x="14" y="14" width="12" height="12" rx="1.5" stroke="#93c5fd" stroke-width="1.2" fill="none"/>
+            <circle cx="20" cy="20" r="2.5" fill="#93c5fd"/>
+            <line x1="15" y1="10" x2="15" y2="5" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="20" y1="10" x2="20" y2="5" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="25" y1="10" x2="25" y2="5" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="15" y1="30" x2="15" y2="35" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="20" y1="30" x2="20" y2="35" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="25" y1="30" x2="25" y2="35" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="10" y1="15" x2="5" y2="15" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="10" y1="20" x2="5" y2="20" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="10" y1="25" x2="5" y2="25" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="30" y1="15" x2="35" y2="15" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="30" y1="20" x2="35" y2="20" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="30" y1="25" x2="35" y2="25" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <div class="logo-text">Despierta<span>Tek</span></div>
+        </a>
+        <div class="header-right">
+          <div class="header-date" id="hdr-date">—</div>
+          <div class="header-edition" id="hdr-edition">—</div>
+        </div>
+      </div>
+      <div class="tagline">El mundo tech en 5 minutos · Buenos días ☀️</div>
+    </div>
+  </div>
+
+  <div id="archive-nav" class="archive-nav"></div>
+
+  <div class="content">
+    <div id="content">
+      <div class="loading">cargando edición...</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <svg class="footer-logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="10" width="20" height="20" rx="3" fill="#2563eb"/>
+          <rect x="14" y="14" width="12" height="12" rx="1.5" stroke="#93c5fd" stroke-width="1.2" fill="none"/>
+          <circle cx="20" cy="20" r="2.5" fill="#93c5fd"/>
+          <line x1="15" y1="10" x2="15" y2="5" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="20" y1="10" x2="20" y2="5" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="25" y1="10" x2="25" y2="5" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="15" y1="30" x2="15" y2="35" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="20" y1="30" x2="20" y2="35" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="25" y1="30" x2="25" y2="35" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="10" y1="15" x2="5" y2="15" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="10" y1="20" x2="5" y2="20" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="10" y1="25" x2="5" y2="25" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="30" y1="15" x2="35" y2="15" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="30" y1="20" x2="35" y2="20" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="30" y1="25" x2="35" y2="25" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <div class="footer-logo-text">Despierta<span>Tek</span></div>
+      </div>
+      <div class="footer-meta" id="footer-meta">despiertaTek.com</div>
+    </div>
+  </div>
+
+  <script>
+    const DIR = './newsletters';
+
+    async function getEditions() {
+      try {
+        const r = await fetch(`${DIR}/index.json`);
+        if (!r.ok) throw 0;
+        return await r.json();
+      } catch { return []; }
+    }
+
+    async function loadNL(date) {
+      try {
+        const r = await fetch(`${DIR}/${date}.json`);
+        return r.ok ? await r.json() : null;
+      } catch { return null; }
+    }
+
+    function fmtLong(s) {
+      const d = new Date(s + 'T12:00:00');
+      const dias = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+      const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+      return `${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]}, ${d.getFullYear()}`;
+    }
+
+    function fmtShort(s) {
+      const d = new Date(s + 'T12:00:00');
+      return d.toLocaleDateString('es-PE', { day: 'numeric', month: 'short' });
+    }
+
+    function render(data) {
+      if (!data) return '<div class="error-state"><p>No hay edición para esta fecha.</p></div>';
+
+      document.getElementById('hdr-date').textContent = fmtLong(data.date);
+      document.getElementById('hdr-edition').textContent = `Edición #${data.edition_number}`;
+      document.getElementById('footer-meta').textContent = `despiertaTek.com · Edición #${data.edition_number} · ${fmtShort(data.date)}`;
+
+      return `<div class="cards-grid">${data.sections.map(s => `
+        <div class="card">
+          <div class="card-label"><span class="emoji">${s.emoji}</span> ${s.label}</div>
+          <div class="card-headline">${s.headline}</div>
+          <div class="card-body">${s.body}</div>
+        </div>`).join('')}</div>`;
+    }
+
+    function renderNav(dates, active) {
+      const nav = document.getElementById('archive-nav');
+      if (dates.length <= 1) { nav.innerHTML = ''; return; }
+      nav.innerHTML = dates.slice(0, 10).map(d =>
+        `<button class="archive-btn${d === active ? ' active' : ''}" onclick="show('${d}')">${fmtShort(d)}</button>`
+      ).join('');
+    }
+
+    let allDates = [];
+
+    async function show(date) {
+      const el = document.getElementById('content');
+      el.innerHTML = '<div class="loading">cargando...</div>';
+      el.innerHTML = render(await loadNL(date));
+      renderNav(allDates, date);
+    }
+
+    async function init() {
+      allDates = await getEditions();
+      if (allDates.length) await show(allDates[0]);
+      else document.getElementById('content').innerHTML = '<div class="error-state">Aún no hay ediciones.</div>';
+    }
+
+    init();
+  </script>
+</body>
+</html>
