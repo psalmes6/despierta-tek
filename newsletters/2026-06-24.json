@@ -1,1 +1,42 @@
-
+{
+  "date": "2026-06-24",
+  "edition_number": 2,
+  "sections": [
+    {
+      "emoji": "🌍",
+      "label": "EL MUNDO HOY",
+      "headline": "EE.UU. e Irán firman el Memorando de Islamabad: cese al fuego de 60 días y reapertura del Estrecho de Ormuz",
+      "body": "Trump y Pezeshkian firmaron un marco de <strong>14 puntos</strong> que congela el conflicto, reabre el Estrecho de Ormuz y abre negociaciones sobre el programa nuclear iraní. El petróleo cayó de precio ante la expectativa de normalización del suministro global. El acuerdo dura <strong>60 días</strong> —no es tratado definitivo— y los detalles sobre el enriquecimiento de uranio siguen sin resolverse."
+    },
+    {
+      "emoji": "📊",
+      "label": "MERCADOS",
+      "headline": "Micron dispara 13% after hours tras batir estimados; Dow sube pero Nasdaq y Bitcoin caen",
+      "body": "<strong>Dow Jones +0.35%</strong> hasta 51,849 | S&P 500 −0.10% hasta 7,358 | <strong>Nasdaq −0.43%</strong> hasta 25,477. Bitcoin cedió 2.2% a $61,066. Tras el cierre, Micron publicó ingresos de <strong>$41.46B</strong> (vs. $35.69B estimados) y EPS de $25.11. Sus acciones subieron <strong>13% en after hours</strong> hasta $1,186, impulsadas por demanda de chips de memoria para IA."
+    },
+    {
+      "emoji": "💰",
+      "label": "BIG BUSINESS",
+      "headline": "Micron reporta ingresos récord de $41,460 millones en Q3 y guía hacia $50,000 millones en el próximo trimestre",
+      "body": "Micron publicó resultados del Q3 fiscal 2026: ingresos de <strong>$41.46B</strong>, margen bruto récord del <strong>58%</strong> y flujo de caja libre histórico. La unidad de memoria para nube alcanzó $13.77B con margen operativo del 78%. El guidance para Q4 apunta a ~<strong>$50,000 millones</strong> en ingresos y EPS de ~$31, impulsado por demanda de HBM4 para centros de datos de IA."
+    },
+    {
+      "emoji": "⚡",
+      "label": "INVENTOS",
+      "headline": "Nuevo espectrómetro de rayos X superconductor multiplica por 1,000 la capacidad de detección de fotones",
+      "body": "Científicos en BESSY II pusieron en operación un espectrómetro de rayos X superconductor que aumenta la eficiencia de detección de fotones hasta <strong>1,000 veces</strong> respecto a sistemas convencionales. El avance tiene implicaciones directas para investigación de materiales, desarrollo de fármacos y <strong>física de partículas</strong>. Es el instrumento de este tipo más potente jamás construido."
+    },
+    {
+      "emoji": "🔬",
+      "label": "INNOVACIÓN",
+      "headline": "Google lanza Imagen 3 Nano y Pro: modelos de imagen IA que usan video como referencia visual",
+      "body": "Google puso en disponibilidad general <strong>Imagen 3 Nano</strong> e <strong>Imagen 3 Pro</strong>. Novedad clave: aceptan archivos de video como prompt de referencia, permitiendo que la IA entienda contexto visual en movimiento y genere imágenes con mayor coherencia estilística. Nano optimizado para velocidad y móviles; Pro para calidad profesional. Disponibles en Google AI Studio y Vertex AI."
+    },
+    {
+      "emoji": "🚀",
+      "label": "MEJORA TU DÍA",
+      "headline": "ZoomMate: la IA que vive dentro de tus reuniones y conecta decisiones con Slack, Jira y Salesforce",
+      "body": "Zoom lanzó ZoomMate (<strong>$20/usuario/mes</strong>), un agente de IA que se integra en reuniones en vivo, detecta decisiones y tareas y las sincroniza con Salesforce, Jira, ServiceNow y Slack. Si alguien dice \"Pedro lleva el informe para el viernes\", ZoomMate <strong>crea la tarea en Jira</strong> y notifica en Slack sin intervención manual. Disponible en el marketplace de Zoom."
+    }
+  ]
+}
