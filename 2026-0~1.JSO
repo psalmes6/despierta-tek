@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-23",
+  "title": "Alphabet pierde $250B en un día | Bitcoin cae 3% mientras el Nasdaq se hunde",
+  "greeting": "Buenos días. En 5 minutos estás al día.",
+  "sections": [
+    {
+      "id": "geopolitica",
+      "emoji": "🌍",
+      "label": "EL MUNDO HOY",
+      "headline": "Ormuz sigue tensando el comercio global y el crecimiento mundial cae al 2.6%",
+      "body": "La crisis del Estrecho de Ormuz, escalada desde febrero tras el conflicto entre EE.UU., Israel e Irán, sigue disparando los costos del seguro marítimo y redefiniendo rutas de suministro. La ONU confirma que el comercio global crecerá apenas entre 1.5% y 2.5% este año, la mitad de lo proyectado. El proteccionismo y los aranceles estratégicos agravan el panorama para economías pequeñas."
+    },
+    {
+      "id": "mercados",
+      "emoji": "📊",
+      "label": "MERCADOS",
+      "headline": "Nasdaq cae 2.2% arrastrado por chips; Bitcoin baja a $62,300",
+      "body": "El S&P 500 cerró en 7,365 (-1.44%), el Nasdaq en 25,587 (-2.21%) y el Dow Jones en 51,667 (-0.09%). La venta masiva de chips de memoria sacudió Asia y se extendió a Wall Street. Bitcoin operó en $62,318, una caída del 3.12% en el día, con cap. de mercado de $1.25 billones. IBM subió 5% tras upgrade de JPMorgan."
+    },
+    {
+      "id": "big-business",
+      "emoji": "💰",
+      "label": "BIG BUSINESS",
+      "headline": "Alphabet se hunde 6%: Google pierde a dos investigadores clave hacia Anthropic y OpenAI",
+      "body": "Alphabet perdió ~$250,000 millones en capitalización bursátil tras confirmarse que John Jumper fichó por Anthropic y Noam Shazeer se fue a OpenAI. La fuga de talento de inteligencia artificial de Google preocupa a inversores que ven cómo sus rivales absorben el cerebro de la empresa que inventó el Transformer."
+    },
+    {
+      "id": "inventos",
+      "emoji": "⚡",
+      "label": "INVENTOS",
+      "headline": "Descubren por qué el H5N1 ataca ubres de vacas: la clave está en los receptores mamarios",
+      "body": "Científicos publicaron hoy el mecanismo por el que la gripe aviar H5N1 infecta el tejido mamario del ganado bovino en lugar de los pulmones: los receptores que prefiere el virus están concentrados en las ubres. El hallazgo es crítico para anticipar mutaciones que podrían facilitar la transmisión a humanos y acelera el diseño de vacunas específicas."
+    },
+    {
+      "id": "innovacion",
+      "emoji": "🔬",
+      "label": "INNOVACIÓN",
+      "headline": "xAI lanza Grok Imagine Video 1.5: genera vídeo desde imagen a $0.14/seg, 86% más barato que Sora",
+      "body": "xAI puso en disponibilidad general Grok Imagine Video 1.5, ahora número uno en el Image-to-Video Arena con +52 puntos Elo sobre su versión anterior, superando a Sora 2, Veo 3.1 y Kling. El precio de $0.14/seg a 720p lo hace 86% más barato que Sora 2 Pro ($0.50/seg), democratizando la generación de vídeo con IA para creadores y startups."
+    },
+    {
+      "id": "mejora-tu-dia",
+      "emoji": "🚀",
+      "label": "MEJORA TU DÍA",
+      "headline": "Claude Tag en Slack: delega tareas a la IA directamente desde tus canales de equipo",
+      "body": "Anthropic lanzó en beta Claude Tag, una integración que permite mencionar @Claude en cualquier canal de Slack para asignarle tareas de forma asíncrona. Disponible para usuarios de Claude Team y Enterprise (plan desde $25/mes), corre sobre Opus 4.8 y soporta colaboración en tiempo real. Si tu equipo ya usa Slack, es la forma más sencilla de tener un agente de IA en el flujo de trabajo."
+    }
+  ],
+  "closing": "Eso fue DespiertaTek. Compártelo con alguien que necesite despertar informado.",
+  "edition_number": 1
+}
