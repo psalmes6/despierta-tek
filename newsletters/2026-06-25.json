@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-25",
+  "edition_number": 4,
+  "sections": [
+    {
+      "emoji": "🌍",
+      "label": "EL MUNDO HOY",
+      "headline": "Oriente Medio y Euribor al alza frenan el crecimiento global: el mundo crece solo 2.5% en 2026",
+      "body": "La realidad supera la ficción 🤯. El conflicto en Oriente Medio dejó de ser un problema regional para convertirse en un evento macroeconómico global. Los mercados de energía, el transporte marítimo y los seguros de carga acusan presión constante, mientras el <strong>Banco Mundial proyecta que el crecimiento global se desacelerará al 2.5% en 2026</strong>, el peor dato para economías emergentes desde la pandemia. En Europa, el <strong>Euribor alcanzó el 2.803% provisional en junio</strong>, su nivel más alto del año, escalando desde el 2.245% de enero. Los bancos centrales descartan recortes de tipos a corto plazo. El IBEX 35 abrió en negativo esta mañana mientras los mercados digieren tensión geopolítica y presión inflacionaria que no da tregua."
+    },
+    {
+      "emoji": "📊",
+      "label": "MERCADOS",
+      "headline": "Apple se desploma -6% al subir precios de Mac e iPad hasta un 25% y arrastra al Nasdaq a su 4° caída seguida",
+      "body": "No abras tu portafolio hoy 💀. Apple fue el gran lastre del día: sus acciones cayeron <strong>-6% hasta $275.15</strong> después de anunciar subidas de precio del <strong>15–20% en Mac y 15–25% en iPad</strong> para compensar el encarecimiento de la memoria. El golpe arrastró al Nasdaq, que cerró <strong>en 25.358 puntos (-0.46%)</strong> encadenando su cuarta sesión consecutiva en rojo, algo que no ocurría desde febrero. El S&P 500 aguantó en <strong>+0.23%</strong> gracias a Micron, y el Dow Jones intentó máximos con los datos macro. Bitcoin cotiza estable en <strong>$59.486</strong>. El mercado empieza a pagar la factura del boom de IA: más chips, más costos, más precios para el consumidor."
+    },
+    {
+      "emoji": "💰",
+      "label": "BIG BUSINESS",
+      "headline": "Micron hace historia: $41.500 millones en un trimestre y ganancias que crecieron casi 1.000%",
+      "body": "La fe es lo más lindo de esta vida 🙌. Micron Technology publicó anoche sus resultados del Q3 fiscal 2026 y reescribió su propio récord histórico. La empresa de memorias reportó <strong>ingresos de $41.46 mil millones</strong>, cuadruplicando los $9.3B del mismo período del año anterior, con un <strong>margen bruto récord del 84.9%</strong>. Las ganancias por acción ajustadas llegaron a $25.11. Para el Q4, proyecta ingresos de <strong>$49–51 mil millones</strong>, muy por encima del consenso de analistas. El detonante: la demanda explosiva de memorias HBM para chips de IA. La acción supera <strong>capitalización de $1 billón</strong> y firmó 16 acuerdos estratégicos con clientes, incluyendo uno con Anthropic."
+    },
+    {
+      "emoji": "⚡",
+      "label": "INVENTOS",
+      "headline": "Figure AI produce un robot por hora en su fábrica: la era de los humanoides en serie ya comenzó",
+      "body": "Suena a ciencia ficción pero no lo es 🛸. Figure AI cruzó un hito histórico esta semana: su fábrica <strong>BotQ produce ya 1 robot humanoid por hora</strong>, un aumento de <strong>24 veces su velocidad en menos de 120 días</strong>, con más de 350 unidades entregadas. Al mismo tiempo, Boston Dynamics comenzó los primeros envíos comerciales de su Atlas eléctrico a Hyundai y Google DeepMind, con toda la producción 2026 ya comprometida. El contexto: Automate 2026, la feria de automatización más grande en 50 años, cerró esta semana en Chicago con <strong>50.000 asistentes y un pabellón entero de robots humanoides patrocinado por NVIDIA</strong>. La producción masiva de robots ya no es el futuro: es hoy."
+    },
+    {
+      "emoji": "🔬",
+      "label": "INNOVACIÓN",
+      "headline": "El aire líquido llega como alternativa real a las baterías: primera planta comercial abrirá en 2026",
+      "body": "Esto te va a cambiar la vida ⚡. En el noroeste de Inglaterra abrirá este año la <strong>primera planta comercial de almacenamiento de energía con aire líquido</strong> del mundo, y promete revolucionar cómo guardamos electricidad renovable. El sistema comprime y enfría aire hasta convertirlo en líquido para almacenarlo; al liberarlo, genera electricidad. A diferencia de las baterías de litio, <strong>puede almacenar energía durante semanas</strong>, no horas, con un mantenimiento mínimo y sin minerales críticos como el cobalto. Es especialmente útil para compensar la intermitencia del sol y el viento. Los analistas lo ven como una de las <strong>innovaciones de almacenamiento más prometedoras de la década</strong>, y el financiamiento global hacia esta tecnología se acelera."
+    },
+    {
+      "emoji": "🚀",
+      "label": "MEJORA TU DÍA",
+      "headline": "Hermes v0.17.0: el agente de IA gratuito y open source que recuerda todo y automatiza tu vida",
+      "body": "Tu nuevo mejor amigo digital 🤖. Nous Research lanzó <strong>Hermes Agent v0.17.0</strong> —'The Reach Release'— y es una bestia. Este agente de IA <strong>100% gratuito y open source</strong> vive en tu servidor, aprende de tus hábitos y se vuelve más capaz con el tiempo. La nueva versión incluye iMessage sin necesitar Mac, WhatsApp vía Cloud API oficial, generación y edición de imágenes en el chat, subagentes para tareas complejas y <strong>automatizaciones recurrentes sin tocar código</strong>. Soporta <strong>300+ modelos de IA</strong> e incluye 40+ herramientas integradas como búsqueda web y visión por computadora. Disponible gratis en GitHub para macOS, Windows y Linux. Lo más cerca que vas a estar de un asistente personal de IA de verdad."
+    }
+  ]
+}
