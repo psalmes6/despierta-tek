@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-29",
+  "edition_number": 6,
+  "sections": [
+    {
+      "emoji": "🌍",
+      "label": "EL MUNDO HOY",
+      "headline": "EE.UU. e Irán arrancan 60 días de negociaciones nucleares que podrían rediseñar la geopolítica global",
+      "body": "Sigue el drama geopolítico del año 🎬. Tras la firma del Memorándum de Islamabad el 17 de junio, que puso fin a <strong>más de 100 días de conflicto</strong> entre EE.UU. e Irán y reabrió el Estrecho de Ormuz, ambas partes entran ahora en la fase más delicada: <strong>60 días de negociaciones</strong> sobre el programa nuclear iraní, sanciones y el destino de hasta <strong>$25 mil millones</strong> en activos iraníes congelados. Si los diálogos fracasan, el riesgo de reescalada regresa y el petróleo podría dispararse de nuevo. Por ahora, el levantamiento del bloqueo naval estabilizó los precios de energía y dio impulso a las bolsas mundiales. La ardilla lee cada titular con lupa. 🔍"
+    },
+    {
+      "emoji": "📊",
+      "label": "MERCADOS",
+      "headline": "El Dow Jones rompe los 52,000 puntos por primera vez: Alphabet debuta en el índice y Wall Street celebra",
+      "body": "Para los que no vendieron: bravo 🎉. El <strong>Dow Jones cerró en 52,182 puntos</strong> —un hito histórico— impulsado por el debut de Alphabet en el índice azul, que reemplazó a Verizon y se disparó casi <strong>+5% en su primer día</strong>. El S&P 500 sumó <strong>+1.18%</strong> hasta 7,440 puntos y el Nasdaq lideró la jornada con <strong>+2.07%</strong> hasta los 25,820 puntos. Applied Materials voló +10% tras el anuncio del megaparque de chips en Corea. Amazon subió 5.34%, Tesla 4.7%. Bitcoin cerró en <strong>$60,409</strong> (+1.43%). La semana arranca con todo verde y los alcistas de muy buen humor."
+    },
+    {
+      "emoji": "💰",
+      "label": "BIG BUSINESS",
+      "headline": "Samsung y SK Hynix anuncian el mayor hub de chips del planeta: $518 mil millones para dominar la IA",
+      "body": "La fe es lo más lindo de esta vida 🙌. Corea del Sur presentó hoy el plan industrial más ambicioso de su historia: <strong>Samsung y SK Hynix invertirán juntos $518 mil millones</strong> (800 billones de wones) para construir <strong>4 nuevas fábricas de semiconductores</strong> en la provincia de Jeolla del Sur. El objetivo es claro: duplicar la capacidad de producción de DRAM en cinco años para satisfacer la explosión global de demanda de IA. El presidente Lee Jae Myung anunció el plan flanqueado por los CEOs de ambas compañías en la Casa Azul de Seúl. El impacto en bolsa fue inmediato: Applied Materials +10% y toda la cadena de chips festejó. El futuro de la IA se fabrica en Corea."
+    },
+    {
+      "emoji": "⚡",
+      "label": "INVENTOS",
+      "headline": "IBM mete 100 mil millones de transistores en un chip con 70% menos energía y redefine la computación",
+      "body": "La realidad supera la ficción 🤯. Ingenieros de IBM desarrollaron NanoStack, una nueva arquitectura capaz de integrar <strong>100 mil millones de transistores</strong> en un solo chip —el triple del techo tecnológico que se consideraba posible hasta ahora. El resultado: <strong>50% más rendimiento</strong> y <strong>70% menos consumo energético</strong> frente a la generación actual. La clave está en apilar capas ultrafinas de materiales de nueva generación, superando las limitaciones físicas del silicio tradicional. Las implicaciones son enormes: servidores de IA más potentes y asequibles, móviles con baterías que duran días y supercomputadoras más accesibles para el mundo. Si los chips son el cerebro de la IA, IBM acaba de inventar el turbo. 🧠"
+    },
+    {
+      "emoji": "🔬",
+      "label": "INNOVACIÓN",
+      "headline": "Alice, la IA que convierte tus apuntes en simulacros de examen, ya ayuda a más de 10,000 universitarios",
+      "body": "Esto te va a cambiar la vida ⚡. Alice (alice.tech) es una plataforma de IA diseñada <strong>exclusivamente para estudiar</strong>: subes tus materiales de clase y Alice los transforma en planes de estudio personalizados, ejercicios adaptativos y simulacros de examen reales. No es un chatbot genérico —integra modelos como ChatGPT, Gemini y Claude en un sistema de aprendizaje propio que entiende cómo aprendes. Ya cuenta con <strong>más de 10,000 estudiantes universitarios activos</strong> en varios países. La app apunta a reducir el estrés académico y mejorar resultados reales sin memorizar al azar. Tiene <strong>plan gratuito</strong>. Si hubiera existido antes, muchos de nosotros habríamos dormido mucho más. 😴"
+    },
+    {
+      "emoji": "🚀",
+      "label": "MEJORA TU DÍA",
+      "headline": "Granola: el bloc de notas con IA que resume tus reuniones sin que nadie note que está grabando",
+      "body": "Tu nuevo mejor amigo digital 🤖. Granola es la app de IA que graba y transcribe tus reuniones directamente desde el audio del sistema —<strong>sin bots visibles en la llamada</strong>, sin que nadie lo sepa. Al terminar, recibes resumen, puntos de acción y seguimientos listos para copiar. Integra <strong>Slack, Notion, HubSpot y Zapier</strong>. Acaba de cerrar una <strong>ronda Serie C de $125 millones</strong> con valoración de $1,500 millones —señal de que el mercado la toma muy en serio. Compatible con Zoom, Google Meet y Teams. <strong>Plan gratuito disponible</strong> con hasta 25 notas de reuniones en historial. Si tienes muchas juntas al día, esto te va a cambiar la vida. La ardilla aprueba. 🐿️✅"
+    }
+  ]
+}
