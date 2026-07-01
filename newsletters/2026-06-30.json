@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-30",
+  "edition_number": 7,
+  "sections": [
+    {
+      "emoji": "🌍",
+      "label": "EL MUNDO HOY",
+      "headline": "T-MEC entra en revisión formal: México y Canadá ya piden extender el tratado 16 años",
+      "body": "Esto no lo viste venir 👀. Hoy Claudia Sheinbaum confirmó que arrancó la revisión formal del T-MEC: este 1 de julio inicia el mecanismo con una reunión virtual entre autoridades de México, Estados Unidos y Canadá. México y Canadá ya formalizaron su postura para extender el tratado <strong>16 años más, hasta 2042</strong>, pero todo depende de que Donald Trump lo acepte. Si no hay acuerdo, se abre un proceso de renegociación completo. La próxima ronda de negociaciones será el <strong>20 de julio</strong> en México, con funcionarios estadounidenses viajando para continuar las pláticas. Millones de empleos y cadenas de suministro automotrices, agrícolas y manufactureras dependen del resultado. La incertidumbre comercial vuelve a instalarse en la región."
+    },
+    {
+      "emoji": "📊",
+      "label": "MERCADOS",
+      "headline": "Dow Jones bate récord en 52,319 puntos mientras Bitcoin se hunde bajo los $60,000",
+      "body": "Wall Street y las criptomonedas van por caminos opuestos 🎢. El Dow Jones cerró hoy en <strong>52.319,20 puntos</strong>, su segundo récord consecutivo, cerrando su mejor trimestre desde 2020, impulsado por el debut de Alphabet en el índice (reemplazó a Verizon tras 22 años y subió más de 4%). El S&P 500 llegó a <strong>7.499 puntos (+0,79%)</strong> y el Nasdaq avanzó 1,52% hasta los 26.213 puntos, empujado por un rally de semiconductores que acumula un 105% en el año. Pero Bitcoin no se sumó a la fiesta: cayó por debajo de los <strong>$60.000, hasta cerca de $58.500 (-3%)</strong>, su peor cierre trimestral tras perder casi la mitad de su valor desde el pico de $126.000 en octubre."
+    },
+    {
+      "emoji": "💰",
+      "label": "BIG BUSINESS",
+      "headline": "Microsoft activa despidos masivos en Xbox justo al cerrar su año fiscal",
+      "body": "Sálvese quien pueda 🫣. Justo al cerrar su año fiscal hoy, Microsoft activó la ola de despidos que venía anunciando en Xbox. Según el memo interno de la CEO Asha Sharma y el jefe de contenidos Matt Booty, los recortes arrancan oficialmente el <strong>6 de julio</strong> y afectarán a la mayoría de las áreas de la división, con al menos <strong>1.000 puestos</strong> en la mira. La razón: Xbox invirtió más de <strong>$20.000 millones en cinco años</strong> pero opera con un margen de apenas 3%. El plan, bautizado \"Next 100 Days: Xbox Reset\", contempla cierre de estudios, posibles fusiones, cancelación de proyectos y mayor disciplina de gasto para enfocarse en exclusivos."
+    },
+    {
+      "emoji": "⚡",
+      "label": "INVENTOS",
+      "headline": "UBTECH presenta su robot humanoide U1: compañía emocional hecha realidad en China",
+      "body": "La realidad supera la ficción 🤯. La china UBTECH Robotics presentó hoy oficialmente a U1, su robot humanoide \"hiperbiónico\" de tamaño real pensado para hacerte compañía. Viene en versión masculina y femenina, con <strong>memoria local, conectividad WiFi</strong> y entre 2 y 4 horas de autonomía por carga. La preventa arrancó el 2 de junio en JD.com y ya acumula cerca de <strong>4.000 reservas y más de 10 millones de yuanes</strong> en depósitos (unos $1,4 millones). El lanzamiento confirma que la robótica de compañía dejó de ser ciencia ficción y se volvió producto de consumo real en China, abriendo la puerta a un mercado de robots domésticos cada vez más personalizados y accesibles."
+    },
+    {
+      "emoji": "🔬",
+      "label": "INNOVACIÓN",
+      "headline": "Científicos chinos logran agua desalinizada con sol más barata que el agua embotellada",
+      "body": "Ponte cómodo porque esta es buena 🍿. Científicos de la Universidad de Shenzhen y la Academia China de Ciencias presentaron un material solar que desaliniza agua de mar sin usar electricidad de red. Logra un <strong>90,2% de absorción solar</strong> y reduce en <strong>45,7% la energía</strong> necesaria para evaporar el agua. Un prototipo funcionó al aire libre durante un año completo con cero costo energético, regando 5 metros cuadrados de cultivo en un ciclo entero. Los investigadores calculan que, tras dos años de uso, el agua producida costará menos que una botella de agua comercial. El estudio, publicado en Advanced Materials, podría llevar agua potable barata a regiones donde hoy es un lujo."
+    },
+    {
+      "emoji": "🚀",
+      "label": "MEJORA TU DÍA",
+      "headline": "Anthropic lanza Claude Sonnet 5: IA agéntica potente, rápida y gratis para todos",
+      "body": "Corre que es gratis 🏃‍♂️. Anthropic lanzó hoy Claude Sonnet 5, su modelo más agéntico hasta la fecha: planifica, navega, usa terminales y trabaja de forma autónoma en tareas que hace poco requerían modelos mucho más grandes y caros. Su rendimiento se acerca al de Opus 4.8 pero a un precio mucho menor —<strong>$2 por millón de tokens de entrada</strong> hasta el 31 de agosto— y es además el modelo predeterminado en los planes <strong>gratuito y Pro</strong> de Claude. También alucina menos y es más resistente a intentos de hackeo por prompt injection que su predecesor Sonnet 4.6. Perfecto para investigar, programar, planear tu día o escribir todos los días sin gastar un peso."
+    }
+  ]
+}
