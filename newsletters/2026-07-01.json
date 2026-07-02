@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-01",
+  "edition_number": 8,
+  "sections": [
+    {
+      "emoji": "🌍",
+      "label": "EL MUNDO HOY",
+      "headline": "Trump congela el T-MEC: EE.UU. no lo renovará y Sheinbaum promete que seguirá vigente hasta 2036",
+      "body": "Agárrense que hay turbulencia 😬. Hoy el representante comercial de EE.UU., Jamieson Greer, confirmó que su país \"no acordó renovar el T-MEC en su forma actual\", por lo que el tratado no se extenderá como México y Canadá pedían. Donald Trump respaldó la postura y no impulsará por ahora la prórroga de <strong>16 años</strong> que buscaba México. La presidenta Claudia Sheinbaum respondió que el T-MEC seguirá vigente hasta <strong>2036</strong> gracias al mecanismo de revisión anual del propio tratado, descartando cualquier riesgo de terminación inmediata. Hoy mismo, el secretario de Economía Marcelo Ebrard sostuvo una reunión virtual con Greer y el ministro canadiense Dominic LeBlanc para definir los próximos pasos. La siguiente ronda de pláticas será el <strong>20 de julio</strong>. Millones de empleos dependen del resultado."
+    },
+    {
+      "emoji": "📊",
+      "label": "MERCADOS",
+      "headline": "Bitcoin sube 2,57% y el Dow marca récord, pero el Nasdaq no se sube al mismo barco",
+      "body": "Esto no lo viste venir 👀. Bitcoin sorprendió hoy con un rally del <strong>+2,57%</strong>, hasta los <strong>$60.083</strong>, mientras Wall Street se mueve en direcciones opuestas. El Dow Jones cerró en un nuevo récord de <strong>52.347,61 puntos</strong> (+0,05%), pero el Nasdaq cayó 0,35% y el S&P 500 se mantuvo casi plano en 7.499,58 puntos. El gran ganador del día fue el Russell 2000, que marcó un máximo histórico por sexta sesión positiva consecutiva. De fondo, el nuevo presidente de la Fed, Kevin Warsh, advirtió en el foro del BCE en Sintra que los precios siguen demasiado altos y descartó bajar la guardia frente a la inflación pese a la presión de Trump por recortar tasas. Los rendimientos de los bonos del Tesoro subieron tras sus comentarios."
+    },
+    {
+      "emoji": "💰",
+      "label": "BIG BUSINESS",
+      "headline": "Meta lanza su propio negocio de nube de IA y hunde en bolsa a sus rivales CoreWeave y Nebius",
+      "body": "Sálvese quien pueda 🫣. Meta sacudió hoy el negocio de la nube: según Bloomberg, la compañía va a vender su exceso de cómputo de IA a otras empresas a través de un nuevo segmento llamado Meta Compute, compitiendo directo con AWS, Azure y Google Cloud. La acción de Meta saltó hasta <strong>+10%</strong> en el día. Pero la fiesta no fue para todos: CoreWeave se desplomó a <strong>$86,62</strong>, su nivel más bajo desde abril, y Nebius entró en mercado bajista tras caer <strong>20%</strong> desde su máximo de junio. El problema es que ambas dependen de Meta como cliente gigante: Nebius tiene un contrato de <strong>$27.000 millones</strong> con Meta y CoreWeave uno de <strong>$21.000 millones</strong>. Su mayor cliente se convirtió, de la nada, en su peor competidor."
+    },
+    {
+      "emoji": "⚡",
+      "label": "INVENTOS",
+      "headline": "Científicos crean SpudCell, la primera célula artificial con ciclo de vida completo",
+      "body": "Suena a ciencia ficción pero no lo es 🛸. Científicos de la Universidad de Minnesota, liderados por la bióloga sintética Kate Adamala, anunciaron hoy la creación de SpudCell, la primera célula artificial con un ciclo de vida completo. Construida desde cero con moléculas no vivas encapsuladas en una membrana lipídica y un genoma reducido de apenas <strong>36 genes</strong>, SpudCell puede alimentarse, crecer, replicar su material genético y dividirse en nuevas generaciones: lo logró durante <strong>5 generaciones</strong> seguidas, cada una en unas 12 horas. Todavía necesita ayuda humana para conseguir su maquinaria de proteínas, así que no es autosuficiente ni viva en sentido estricto. Adamala fundó Biotic, una empresa de beneficio público, para compartir esta tecnología con científicos de todo el mundo y acelerar la ingeniería de células sintéticas."
+    },
+    {
+      "emoji": "🔬",
+      "label": "INNOVACIÓN",
+      "headline": "SpaceX suma 24 satélites más a Starlink y acerca internet a millones de personas sin cobertura",
+      "body": "Los astros se alinearon ✨. Esta noche SpaceX lanza 24 satélites Starlink más desde la Base Vandenberg en California, con despegue previsto para las 7:57 pm hora del Pacífico. La misión suma a una megaconstelación que ya supera los <strong>10.700 satélites</strong> activos en órbita baja, con autorización de la FCC para llegar hasta <strong>15.000</strong> y un plan de largo plazo de 42.000. Cada lanzamiento acerca internet de banda ancha a comunidades rurales, escuelas remotas y zonas sin cobertura de fibra en todo el planeta, además de sostener servicios de emergencia y educación a distancia en regiones antes desconectadas. La reutilización de cohetes, con récord actual de <strong>35 vuelos</strong> para un mismo propulsor, es la pieza clave que volvió económicamente viable esta carrera por conectar al mundo entero desde el espacio."
+    },
+    {
+      "emoji": "🚀",
+      "label": "MEJORA TU DÍA",
+      "headline": "Grok 4.3 de xAI llega a Amazon Bedrock como el modelo de IA de gran laboratorio más barato",
+      "body": "Esto te va a cambiar la vida ⚡ si programas o emprendes. Grok 4.3, el modelo de IA de xAI, llegó hoy a Amazon Bedrock a <strong>$1,25 por millón de tokens</strong> de entrada y <strong>$2,50</strong> de salida, el modelo de gran laboratorio más barato en la plataforma. Tiene una ventana de contexto de 131.000 tokens y se suma a Claude, Amazon Nova, Meta Llama, Mistral y AI21 en el mismo panel de AWS, con una sola factura y un solo contrato. Es la opción ideal si ya agotaste el presupuesto de IA de este año: mucho más barato que Claude Sonnet 5 o GPT-5.5, con capacidad casi de punta. No es gratis, pero si tienes cuenta de AWS, ya puedes probarlo hoy mismo."
+    }
+  ]
+}
